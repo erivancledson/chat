@@ -1,0 +1,51 @@
+body {
+    margin:0;
+}
+<!--cor para identificar-->
+.environment {
+	height:10px;
+	background-color:#000000;
+}
+<!--alinhar a tabela a esquerda-->
+table th {
+	text-align:left;
+}
+
+<!--botão do chat na pagina inicial canto inferior direito-->
+.chatbutton {
+	width:200px;
+	height:40px;
+	background-color:orange;
+	text-align:center;
+	line-height: 40px;
+	position:fixed;
+	bottom:0;
+	right:50px;
+	cursor:pointer;
+}
+<!--area das mensagens do chat, overflow-y:scroll cria uma barra de rolagem y fica na barra somente de lado-->
+.chatarea {
+	height:340px;
+	background-color:#EEEEEE;
+        
+	overflow-y:scroll;
+}
+
+
+.inputarea {
+	height:50px;
+	background-color:#FFFFFF;
+}
+<!-- tirar margin, qualquer padding, do campo aonde digito a mensagem do chat
+
+#msg {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+  
+	font-size:15px;
+}
+.msgitem {
+	margin-bottom:5px;
+}
